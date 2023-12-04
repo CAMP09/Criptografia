@@ -5,7 +5,7 @@ import java.security.GeneralSecurityException;
 public class Aplicación {
 	public static void main(String[] args) throws GeneralSecurityException {
 		ListaUsuarios lu = new ListaUsuarios();
-		SeguridadHash.mostrarMenuAutenticacion(lu);
+		Logicas.mostrarMenuAutenticacion(lu);
 		
 	}
 }

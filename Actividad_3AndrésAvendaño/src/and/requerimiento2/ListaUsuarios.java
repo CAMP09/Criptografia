@@ -21,9 +21,9 @@ public class ListaUsuarios {
 		Usuario u2;
 		Usuario u3;
 		try {
-			u1 = new Usuario("Alberto", SeguridadHash.hashearContrasena("alberto1"));
-			u2 = new Usuario("Carmen", SeguridadHash.hashearContrasena("carmen2"));
-			u3 = new Usuario("Alejandro", SeguridadHash.hashearContrasena("alex3"));
+			u1 = new Usuario("Alberto", Logicas.hashearContrasena("alberto1"));
+			u2 = new Usuario("Carmen", Logicas.hashearContrasena("carmen2"));
+			u3 = new Usuario("Alejandro", Logicas.hashearContrasena("alex3"));
 		
 			listaUsuarios.add(u1);
 			listaUsuarios.add(u2);
